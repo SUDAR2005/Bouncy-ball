@@ -1,2 +1,2 @@
-# PYTHONPROJECTSSEM1
-This repository contains files that were done by me during my first year of Bachelor's in Information Technology 
+# PYTHON_PROJECTS_SEM1
+This repository contains a game named bouncy ball which was a part of my first semestert project.
