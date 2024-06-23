@@ -14,7 +14,7 @@ scr=pg.display.set_mode((Width, Height))
 #Setting up the game's name in caption
 pg.display.set_caption("Bouncy Ball")
 #Setting up the background and converting into quick accessible
-bg_image=pg.image.load("mock-background1.png")
+bg_image=pg.image.load("ball-background.avif")
 #Changing the dimensions of bg and making it suitable for main display
 bg= pg .transform.scale(bg_image, (2 * Width, Height))
 #variable for continuous running of background

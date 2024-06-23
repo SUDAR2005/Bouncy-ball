@@ -44,7 +44,7 @@ pip install pygame
 ## Project Structure
 
 - `main.py`: The main script containing the game logic.
-- `mock-background1.png`: Background image used in the game.
+- `ball-background.avif`: Background image used in the game.
 - `Bouncy_ball_score.txt`: File where scores are saved.
 
 ## Running the Game
@@ -61,5 +61,5 @@ bouncy-ball-game/
 │
 ├── Bouncy_ball_score.txt     # File to store scores
 ├── main.py                   # Main script with the game logic
-├── mock-background1.png      # Background image for the game
+├── ball-background.avif      # Background image for the game
 ```
