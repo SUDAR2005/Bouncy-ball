@@ -14,7 +14,7 @@ scr=pg.display.set_mode((Width, Height))
 #Setting up the game's name in caption
 pg.display.set_caption("Bouncy Ball")
 #Setting up the background and converting into quick accessible
-bg_image=pg.image.load("ball-background.avif")
+bg_image=pg.image.load("ball-background.jpeg")
 #Changing the dimensions of bg and making it suitable for main display
 bg= pg .transform.scale(bg_image, (2 * Width, Height))
 #variable for continuous running of background
@@ -76,7 +76,7 @@ while run:
     #Stating of event loop
     for event in pg.event.get():
         if event.type==pg.QUIT:#To set quit option
-            font=open("Bouncy_ball_score.txt", "r+")
+            font=open("Bouncy_ball_score.txt", "w+")
             font.write(f"{d.datetime.now()}\t{point}\n")
             font.close()
             pg.quit()
